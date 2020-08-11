@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     paddingBottom: "24px",
   },
   backgroundImage: {
+    width: "100%",
     flex: 1,
     justifyContent: "center",
   },

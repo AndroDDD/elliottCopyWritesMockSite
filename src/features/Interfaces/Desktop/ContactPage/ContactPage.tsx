@@ -29,9 +29,11 @@ const styles = StyleSheet.create({
     alignItems: "center",
     overflow: "hidden",
     textAlign: "center",
-    backgroundColor: "slategray",
+    backgroundColor: "rgb(0, 0, 50)",
+    paddingBottom: "24px",
   },
   backgroundImage: {
+    width: "100%",
     flex: 1,
     justifyContent: "center",
   },

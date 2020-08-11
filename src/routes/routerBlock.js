@@ -23,7 +23,7 @@ import ContactPageM from "../features/Interfaces/Mobile/ContactPage/ContactPage"
 
 export const store = configureStore();
 
-export const localUrl = `https://safe-forest-86062.herokuapp.com/`;
+export const localUrl = `http://localhost:3000/`;
 
 export const isMobile = checkIfMobileBrowser();
 
