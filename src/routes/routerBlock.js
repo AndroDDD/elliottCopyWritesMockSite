@@ -25,6 +25,8 @@ export const store = configureStore();
 
 export const localUrl = `https://safe-forest-86062.herokuapp.com/`;
 
+const test = "test deploy";
+
 export const isMobile = checkIfMobileBrowser();
 
 function checkIfMobileBrowser() {
