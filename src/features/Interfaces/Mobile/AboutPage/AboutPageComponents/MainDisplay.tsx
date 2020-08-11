@@ -24,7 +24,7 @@ const MainDisplay: React.FC = () => {
               style={{
                 border: "solid 1px rgb(250, 144, 0)",
                 borderRadius: "1px",
-                transform: "translateY(16px) translateX(-8px)",
+                transform: "translateY(18px) translateX(-6px)",
               }}
             />
             {"Lawrence Elliott: Managing Member of Elliott Copywrites LLC"}
@@ -110,6 +110,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 10,
     color: "rgb(250, 144, 0)",
+    transform: [{ translateY: -6 }],
   },
   descriptionView: {
     height: "100%",

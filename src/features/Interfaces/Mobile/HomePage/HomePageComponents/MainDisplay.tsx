@@ -40,7 +40,7 @@ const MainDisplay: React.FC = () => {
                 style={{
                   border: "solid 1px rgb(250, 144, 0)",
                   borderRadius: "1px",
-                  transform: "translateY(16px) translateX(-3px)",
+                  transform: "translateY(18px) translateX(-6px)",
                 }}
               />
               {"Lawrence Elliott: Managing Member of Elliott Copywrites LLC"}
@@ -137,11 +137,12 @@ const styles = StyleSheet.create({
   },
   portraitLabelText: {
     position: "absolute",
-    bottom: "0%",
+    bottom: "2px",
     width: "245px",
     textAlign: "center",
     fontSize: 10,
     color: "rgb(250, 144, 0)",
+    transform: [{ translateY: -4 }],
   },
   portraitBadges: {
     paddingLeft: "3px",
