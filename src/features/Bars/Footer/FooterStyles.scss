@@ -1,0 +1,23 @@
+.privacyLinkDesktop {
+  width: 100%;
+}
+
+.privacyLinkMobile {
+  width: 100%;
+  transform: translateY(5px);
+}
+
+.contactIconDesktop {
+  position: relative;
+  left: 0%;
+  color: slategray;
+  padding-right: 3px;
+}
+
+.contactIconMobile {
+  position: relative;
+  left: 0%;
+  color: slategray;
+  transform: translateY(6px);
+  padding-right: 3px;
+}
