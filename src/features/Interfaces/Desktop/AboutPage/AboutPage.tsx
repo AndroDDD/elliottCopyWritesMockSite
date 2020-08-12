@@ -8,7 +8,7 @@ const AboutPageD: React.FC = () => {
   return (
     <View style={styles.scene}>
       <ImageBackground
-        source={{ uri: require("../../../Media/Icons/logoIconv1.png") }}
+        source={{ uri: require("../../../Media/Backgrounds/ECWBluePlate.png") }}
         imageStyle={{ resizeMode: "repeat" }}
         style={styles.backgroundImage}
       >

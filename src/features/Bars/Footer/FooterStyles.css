@@ -1,0 +1,26 @@
+.privacyLinkDesktop {
+  width: 100%;
+}
+
+.privacyLinkMobile {
+  width: 100%;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+.contactIconDesktop {
+  position: relative;
+  left: 0%;
+  color: slategray;
+  padding-right: 3px;
+}
+
+.contactIconMobile {
+  position: relative;
+  left: 0%;
+  color: slategray;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+  padding-right: 3px;
+}
+/*# sourceMappingURL=FooterStyles.css.map */

@@ -1,0 +1,47 @@
+.toolBar {
+  background-color: #000032;
+}
+
+.headerBanner {
+  margin: auto;
+  height: inherit;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 60px;
+}
+
+.navMenu {
+  border-color: #fa9000;
+  border-width: 1px;
+  color: #fa9000;
+}
+
+.menuButton {
+  position: absolute;
+  padding-left: 0.5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginButton {
+  color: slategrey;
+  position: absolute;
+  right: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 1%;
+}
+/*# sourceMappingURL=HeaderStyles.css.map */
