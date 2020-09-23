@@ -1,5 +1,6 @@
 import React from "react";
 import { AppRegistry } from "react-native";
+import "typeface-roboto";
 import "./index.css";
 import App from "./App";
 

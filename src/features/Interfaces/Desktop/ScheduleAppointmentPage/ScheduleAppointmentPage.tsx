@@ -1,8 +1,10 @@
 import React from "react";
-import { View, ImageBackground, StyleSheet } from "react-native";
+import { View, ImageBackground, StyleSheet, Dimensions } from "react-native";
 import HeaderBar from "../../../Bars/Header/Header";
 import FooterBar from "../../../Bars/Footer/Footer";
 import MainDisplay from "./ScheduleAppointmentPageComponents/MainDisplay";
+
+let screenHeight = Dimensions.get("window").height;
 
 const ScheduleAppointmentPageD: React.FC = () => {
   return (
@@ -12,9 +14,13 @@ const ScheduleAppointmentPageD: React.FC = () => {
         imageStyle={{ resizeMode: "repeat" }}
         style={styles.backgroundImage}
       >
-        <HeaderBar />
+        <div style={{ position: "relative", top: "-10%", width: "100%" }}>
+          <HeaderBar />
+        </div>
         <MainDisplay />
-        <FooterBar />
+        <div style={{ position: "absolute", bottom: "0px", width: "100%" }}>
+          <FooterBar />
+        </div>
       </ImageBackground>
     </View>
   );
@@ -24,7 +30,7 @@ const styles = StyleSheet.create({
   scene: {
     margin: "auto",
     width: "100%",
-    height: "100%",
+    height: screenHeight,
     justifyContent: "center",
     alignItems: "center",
     overflow: "hidden",
@@ -34,7 +40,7 @@ const styles = StyleSheet.create({
   },
   backgroundImage: {
     width: "100%",
-    flex: 1,
+    height: "100%",
     justifyContent: "center",
   },
 });
